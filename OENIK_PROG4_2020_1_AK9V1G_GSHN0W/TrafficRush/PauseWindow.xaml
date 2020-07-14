@@ -1,0 +1,16 @@
+﻿<Window x:Class="TrafficRush.PauseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrafficRush"
+        mc:Ignorable="d"
+        Title="PauseWindow" Height="200" Width="200"
+        Left="400">
+    <Grid>
+        <Label Content="Paused" HorizontalAlignment="Left" Margin="61,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Click="Save_Click" Content="Save" HorizontalAlignment="Left" Margin="53,76,0,0" VerticalAlignment="Top" Width="75" FontSize="16"/>
+        <Button Click="Load_Click" Content="Load" HorizontalAlignment="Left" Margin="53,119,0,0" VerticalAlignment="Top" Width="75" FontSize="16"/>
+
+    </Grid>
+</Window>

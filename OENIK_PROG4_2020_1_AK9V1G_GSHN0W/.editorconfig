@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# SA1101: Prefix local calls with this
+dotnet_diagnostic.SA1101.severity = suggestion
+
+# SA1513: Closing brace should be followed by blank line
+dotnet_diagnostic.SA1513.severity = suggestion
+
+# SA1116: Split parameters should start on line after declaration
+dotnet_diagnostic.SA1116.severity = suggestion
